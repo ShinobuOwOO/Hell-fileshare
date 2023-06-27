@@ -110,7 +110,7 @@ async def start_command(client: Client, message: Message):
     
 #=====================================================================================##
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>𝗥𝘂𝗸𝗼 𝗕𝗵𝗮𝗶/𝗱𝗶𝗱𝗶......</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
@@ -131,7 +131,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = '𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 ⚡',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
