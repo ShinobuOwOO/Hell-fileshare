@@ -16,9 +16,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("𝗦𝗼𝗷𝗮𝗼 🗿", callback_data = "close")
-                        InlineKeyboardButton(
-                    text = '𝗢𝘄𝗻𝗲𝗿 🦁',
-                    url = f"https://t.me/MikeytheGod"
                     ]
                 ]
             )
